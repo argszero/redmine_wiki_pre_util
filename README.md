@@ -2,7 +2,7 @@
 
 ref: http://www.redmine.org/boards/2/topics/30975
 If you want enable link inside a pre tag, you will find it is impossible, as below:
-	<pre>
+	<pre >
 	       +---topic1
 	       |
 	       +---topic2
@@ -12,11 +12,10 @@ If you want enable link inside a pre tag, you will find it is impossible, as bel
 	       +---topic3-+---[[detail2]]
 	                  |
 	                  +---"detail3":http://xxx.org/detail3
-	</pre>
+	</pre >
 
 # How ? 
 
-<pre>
 	{{pre(
 	<notextile>
 	       +---topic1
@@ -30,7 +29,6 @@ If you want enable link inside a pre tag, you will find it is impossible, as bel
 	                  +---"detail3":http://xxx.org/detail3
 	</notextile>
 	)}}
-</pre>
 
 # Start !
 
