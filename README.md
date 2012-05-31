@@ -2,7 +2,6 @@
 
 ref: http://www.redmine.org/boards/2/topics/30975
 If you want enable link inside a pre tag, you will find it is impossible, as below:
-<pre>
 	<pre>
 	       +---topic1
 	       |
@@ -14,7 +13,6 @@ If you want enable link inside a pre tag, you will find it is impossible, as bel
 	                  |
 	                  +---"detail3":http://xxx.org/detail3
 	</pre>
-</pre>
 
 # How ? 
 
